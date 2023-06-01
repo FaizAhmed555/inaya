@@ -1,0 +1,40 @@
+/*** Layout ***/
+.grid {
+    padding: 0.5rem;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+}
+
+.row {
+    display: grid;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+.col-1--2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+/* Mobile */
+@media (max-width:800px) {
+    .col-1--2 {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* header */
+header {
+    padding: 1rem;
+    color: white;
+    background-color: teal;
+   
+   
+    justify-content: space-between;
+}
+
+
+/*     section     */
+section {
+    padding: 1rem 0.5rem;
+}

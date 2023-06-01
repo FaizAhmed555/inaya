@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: teal;
+    color: white;
+}
+body {
+    font-size: 16px;
+    overflow-x: hidden;
+}
+/* font size */
+
+h1 {
+    font-size: 1.5rem;
+}
+h2 {
+    font-size: 0.9rem;
+}
+h3 ,p, input, button,a{
+    font-size: 0.8rem;
+}
+h4 {
+    font-size: 0.7rem;
+}
+
+
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+button {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+input {
+    width: auto;
+    padding: 0.5rem;
+    outline: none;
+    background-color: white;
+    border: none;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-bar {
+    width: fit-content;
+    margin: 1rem auto;
+    background-color: white;
+    border: 1px solid black;
+}
+ 
+
+.search-bar button {
+    margin: 0;
+    border: none;
+}
+.section-title {
+    padding: 0.5rem;
+}
+.product-card-container {
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    padding: 0.5rem;
+    cursor: pointer;
+ 
+    transition: 0.2s ease-in-out;
+}
+.product-card-container:hover {
+    transform: scale(1.01);
+}
+.product-card .img {
+    overflow: hidden;
+    height: 20em;
+}
+.hide {
+    display: none;
+}
+.title {
+    text-transform: capitalize;
+    margin: 0.5rem 0;
+}
+.grand-total:before, .total::before, .price::before {
+    content: "₹ ";
+}
+footer {
+    padding: 1rem;
+}
+
+@media (max-width : 800px) {
+    body {
+        font-size: 10px;
+    }
+}

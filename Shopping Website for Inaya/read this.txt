@@ -1,0 +1,2 @@
+create the website for this:
+i have 10 products to sell online. so, obusly i will display them [home page], then view its details [details page], purchase them [shopping cart]

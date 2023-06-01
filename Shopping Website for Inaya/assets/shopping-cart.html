@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/shopping-cart.css">
+
+     
+    <script src="/script/shopping-cart.js" type="module" defer></script>
+ 
+    <title>Shopping card</title>
+</head>
+
+<body>
+    <header>
+        <div class="flex">
+            <div class="logo-div">
+                <a href="/index.html">
+                    <h1 class="logo">Inaya</h1>
+                </a>
+            </div>
+            <div class="shopping-cart-div">
+                <a href="./shopping-cart.html">
+                    &#128722;
+                </a>
+            </div>
+        </div>
+
+ 
+        </div>
+
+    </header>
+
+    <template>
+        <div class="product" productId="">
+            <a>
+                <div class="img">
+                    <img src="" alt="">
+                </div>
+                <h2 class="title"></h2>
+            </a>
+
+            <h3>
+                <span class="price"></span>
+            </h3>
+            <input type="number" placeholder="Quantity" min="1" id="quantity">
+            <h3 class="total"></h3>
+            <button id="CancelBtn">Cancel</button>
+        </div>
+    </template>
+
+    <section id="shopping-cart">
+        <h1 class="section-title"> &#128722; Shopping Cart</h1>
+        <div class="container">
+            <div class="cart">
+            </div>
+            <div class="empty-cart-msg hide">
+                <h1>OOPs! seems you have nothing in your cart</h1>
+                <a href="/./index.html">Wanted to by something?</a>
+            </div>
+        
+            <div class="bill">
+                <h1>Grand Total <span class="grand-total">$1000</span></h1>
+               <button id="checkoutBtn">Checkout</button> 
+            </div>
+        </div>
+    </section>
+
+  
+    <footer>
+        <h1>
+            Footer
+        </h1>
+
+    </footer>
+
+</body>
+
+</html>

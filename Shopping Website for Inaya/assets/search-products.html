@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/search-products.css">
+
+    <script src="/script/search-products.js" type="module" ></script>
+    <title>Search Products</title>
+</head>
+<body>
+    <header>
+        <div class="flex">
+            <div class="logo-div">
+                <a href="/index.html">
+                    <h1 class="logo">Inaya</h1>
+                </a>
+            </div>
+            <div class="shopping-cart-div">
+                <h1>
+                    <a href="/assets/shopping-cart.html">
+                        &#128722;
+                    </a>
+                </h1>
+            </div>
+        </div>
+
+    </header>
+    <template>
+        <div class="product-card-container" productId="">
+            <a href="">
+                <div class="product-card">
+                    <div class="img">
+                        <img src="" alt="">
+                    </div>
+                    <h2 class="title"></h2>
+                    <span class="price"></span>
+                </div>
+            </a>
+            <button id="AddToCartBtn">Add to cart</button>
+        </div>
+    </template>
+
+    <section id="search-products">
+        <h2 class="section-title">Search Resutls for <span id="search-results"></span></h2>
+        <div id="msg" >
+            <h1>No Product found! But you may like these.</h1>
+            <a href="/index.html">Back to home page?</a>
+        </div>
+        <div class="container grid"></div>
+    </section>
+
+</body>
+</html>

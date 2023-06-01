@@ -1,0 +1,15 @@
+#product-details .col:nth-child(2) {
+    padding: 1rem;
+}
+ 
+.img {
+    max-width: 300px;
+    margin: auto;
+}
+ 
+.details {
+    margin: 2rem 0;
+    line-height: 1.5;
+}
+ 
+ 

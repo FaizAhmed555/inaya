@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/layout.css">
+
+    <script src="./script/index.js" type="module"></script>
+ 
+    <title>Index Page</title>
+</head>
+
+<body>
+    <header>
+        <div class="flex">
+            <div class="logo-div">
+                <a href="./index.html">
+                    <h1 class="logo">Inaya</h1>
+                </a>
+            </div>
+            <div class="shopping-cart-div">
+                <h1>
+                    <a href="/assets/shopping-cart.html">
+                        &#128722;
+                    </a>
+                </h1>
+            </div>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Search Inaya..." id="search-input">
+            <button id="search-btn">&#128269;</button>
+        </div>
+
+    </header>
+
+    <template>
+        <div class="product-card-container" productId="">
+            <a href="">
+                <div class="product-card">
+                    <div class="img">
+                        <img src="" alt="">
+                    </div>
+                    <h2 class="title"></h2>
+                    <span class="price"></span>
+                </div>
+            </a>
+            <button id="AddToCartBtn">Add to cart</button>
+        </div>
+    </template>
+    
+    <section id="products">
+        <h2 class="section-title">My Products</h2>
+        <div class="container grid"></div>
+    </section>
+
+    <footer>
+        <h1>
+            Footer
+        </h1>
+    </footer>
+ 
+    
+</body>
+
+</html>
